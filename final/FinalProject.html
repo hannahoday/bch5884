@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Project</title>
+</head>
+<style>
+body {background-color: powderblue;}
+ img{border-radius:5px}
+ h1{color: #000080; font-size:300%}
+table {font-size:150%}
+p{font-size:150%}
+</style>
+<h1 style="font-family:verdana">Final Project: Plotting Ion Trajectories from SIMION</h1>
+<table style = "width:90%" >
+<tr><td style="font-family:verdana">In the Bleiholder Lab, I have been studying ion trajectories in our trapped ion mobility spectrometry (TIMS) instrument. To study ion trajectories, I have been using SIMION, an ion optics simulation program that simulates ion trajectories based on user defined electric potentials. The image to the right is an example of a 3D ion trajectory collected from a qudrupole ion trap simulation produced by SIMION. Any ion trajectory produced from SIMION can be graphed similarly to this, with the following power specrtal analysis on different frequency components in the trajectory.</td><td><img src="trajectory.png"></td></tr><tr><th style="font-family:verdana">Ion Trajectory in the r-Direction (Green) and the Power Spectral Density (Blue)</th><th style="font-family:verdana">Ion Trajectory in the z-Direction (Green) and the Power Spectral Density (Blue)</th></tr><tr><td align="center"><img src="psdr.png"></td><td><img src="psdz.png"></td></tr></table><p style="font-family:verdana"> These power spectral densities (PSDs) can be used to examine the contribution of different frequency components to the ion trajectory. What should be noticed here is that there are clearly more frequencies in the r-direction than the z-direction. So, in this example of a quadrupole ion trap, ions experience more types of motion in the radial direction than the axial. In the future, more simulations will be run in SIMION to further show differences in axial and radial contributions in ion trajectories.
